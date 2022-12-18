@@ -6,16 +6,19 @@ body {
     flex-direction: column;
 }
 
+/* Top section */
+
 .top,
 .footer {
     background-color: #1F2937;
-    display: flex;
 }
 
 .top {
     flex-direction: column;
     padding: 0 15%;
 }
+
+/* Navigation */
 
 nav {
     display: flex;
@@ -37,7 +40,7 @@ nav {
 
 ul {
     display: flex;
-    gap: 32px;
+    gap: 2vw;
     align-items: center;
     list-style: none;
     margin: 0;
@@ -48,14 +51,17 @@ a {
     text-decoration: none;
 }
 
+/* Hero section */
+
 .hero {
     padding: 50px 0 100px;
     display: flex;
     justify-content: space-between;
-    gap: 64px;
+    flex-wrap: wrap-reverse;
 }
 
 .hero-left {
+    margin-top: 20px;
     width: 460px;
     display: flex;
     flex-direction: column;
@@ -93,8 +99,11 @@ button {
 
 .hero img {
     height: auto;
-    width: 800px;
+    width: 700px;
 }
+
+/* Mid section */
+/* Content section */
 
 h2,
 .quote {
@@ -103,9 +112,8 @@ h2,
 }
 
 h2 {
-    margin: 64px;
+    margin: 64px auto;
     font-weight: 800;
-    text-align: center;
 }
 
 .content {
@@ -132,6 +140,8 @@ img {
     border-radius: 10px;
 }
 
+/* Quote section */
+
 .quote-section {
     margin-top: 120px;
     padding: 100px;
@@ -151,6 +161,8 @@ img {
     text-align: right;
     padding-right: 64px;
 }
+
+/* Action call */
 
 .action-call {
     background-color: #3882F6;
@@ -172,7 +184,10 @@ img {
     border: 2px solid white;
 }
 
+/* Footer */
+
 .footer {
+    display: flex;
     margin-top: auto;
     padding: 16px;
     justify-content: center;
